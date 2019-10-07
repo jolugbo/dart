@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04050aa-6bba-4ffb-92bd-26efd7543df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Employee.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/task3.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/firstClass.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/firstClass.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Employee.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Employee.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

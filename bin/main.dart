@@ -25,6 +25,9 @@ main(List<String> arguments) async {
 //  myClass.welcomeMessage();
 Employee newEmployee = Employee("James Bond", "DSS");
 newEmployee.PrintEmployeeDetails();
+newEmployee.Level = "HOD";
+newEmployee.Salary = 900000;
+print(newEmployee.Salary);
 }
 
   /*
