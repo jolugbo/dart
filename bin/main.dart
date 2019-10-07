@@ -5,6 +5,7 @@ import 'dart:async';
 import 'package:helloworld/dartintermediate.dart' as intermediate_lessons;
 import 'package:helloworld/firstClass.dart';
 import 'package:helloworld/Employee.dart';
+import 'package:helloworld/Animal/feline.dart';
 
 enum colors { red, blue, gray, yellow }
 main(List<String> arguments) async {
@@ -23,11 +24,15 @@ main(List<String> arguments) async {
   //intermediate_lessons.getFile();
 //  firstClass myClass = firstClass("Femi");
 //  myClass.welcomeMessage();
-Employee newEmployee = Employee("James Bond", "DSS");
-newEmployee.PrintEmployeeDetails();
-newEmployee.Level = "HOD";
-newEmployee.Salary = 900000;
-print(newEmployee.Salary);
+//Employee newEmployee = Employee("James Bond", "DSS");
+//newEmployee.PrintEmployeeDetails();
+//newEmployee.Level = "HOD";
+//newEmployee.Salary = 900000;
+//print(newEmployee.Salary);
+Feline cat = Feline();
+print(cat.Breath);
+cat.runs();
+cat.standoutFeature();
 }
 
   /*
