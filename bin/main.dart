@@ -2,9 +2,24 @@ import 'dart:collection';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
+import 'package:helloworld/dartintermediate.dart' as intermediate_lessons;
 
 enum colors { red, blue, gray, yellow }
-main(List<String> arguments) {
+main(List<String> arguments) async {
+  String message = intermediate_lessons.welcomeMessage("femi");
+  String encoded = intermediate_lessons.encode(message);
+  String decoded = intermediate_lessons.decode(encoded);
+  print(message);
+  print(encoded);
+  print(decoded);
+  //var url = 'http://www.voidrealms.com';
+  var url2 = 'http://www.example.com/foobar.txt';
+  //String postResp = await intermediate_lessons.httpPost(url);
+  //String getResp = await intermediate_lessons.httpGet(url);
+  //print(postResp);
+  //print(getResp);
+  intermediate_lessons.getFile();
+
 }
 
   /*
