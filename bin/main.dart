@@ -6,6 +6,9 @@ import 'package:helloworld/dartintermediate.dart' as intermediate_lessons;
 import 'package:helloworld/firstClass.dart';
 import 'package:helloworld/Employee.dart';
 import 'package:helloworld/Animal/feline.dart';
+import 'package:helloworld/Student/GraduateStudent.dart';
+import 'package:helloworld/Student/student.dart';
+import 'package:helloworld/task4/BnB.dart';
 
 enum colors { red, blue, gray, yellow }
 main(List<String> arguments) async {
@@ -33,6 +36,11 @@ Feline cat = Feline();
 print(cat.Breath);
 cat.runs();
 cat.standoutFeature();
+Student newStudent = GraduateStudent();
+newStudent.details();
+BnB newHost = BnB();
+newHost.ringDoorbell();
+
 }
 
   /*

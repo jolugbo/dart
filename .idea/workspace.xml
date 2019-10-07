@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04050aa-6bba-4ffb-92bd-26efd7543df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Animal/Mammal.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Animal/animal.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Animal/feline.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Animal/predators.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Student/GraduateStudent.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Student/student.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/task4/BnB.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/task4/Hotel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/task4/House.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.dart" afterDir="false" />
     </list>
@@ -32,8 +33,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1RnUrinEve676Iu1CAo1NgDA8nn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
   </component>
@@ -79,5 +83,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
