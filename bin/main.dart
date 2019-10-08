@@ -9,9 +9,26 @@ import 'package:helloworld/Animal/feline.dart';
 import 'package:helloworld/Student/GraduateStudent.dart';
 import 'package:helloworld/Student/student.dart';
 import 'package:helloworld/task4/BnB.dart';
+import 'package:helloworld/Task5/Employee.dart';
+import 'package:helloworld/Generics/GenericCounter.dart';
 
 enum colors { red, blue, gray, yellow }
 main(List<String> arguments) async {
+  Payroll rec= Payroll();
+  rec.add(Manager());
+  rec.add(Cashier());
+  rec.add(Manager());
+  rec.add(Cashier());
+  rec.add(Cashier());
+  rec.print();
+}
+
+
+  /*
+
+GenericCounter<double> numbers = GenericCounter<double>();
+numbers.addAll([1.0,2.8,9.2,4.1]);
+numbers.total();
   /*String message = intermediate_lessons.welcomeMessage("femi");
   String encoded = intermediate_lessons.encode(message);
   String decoded = intermediate_lessons.decode(encoded);
@@ -40,10 +57,6 @@ Student newStudent = GraduateStudent();
 newStudent.details();
 BnB newHost = BnB();
 newHost.ringDoorbell();
-
-}
-
-  /*
 void printInput(){
   stdout.write("Please Select a number between 1 and 100\r\n");
   int option = int.parse(stdin.readLineSync());
