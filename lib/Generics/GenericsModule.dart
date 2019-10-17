@@ -23,4 +23,12 @@ class GenericsModule{
     });
     return ans;
   }
+
+  void addThis<T extends num>(T a, T b){
+    print(a + b);
+  }
+  void addAllThis<T>(List<T> a, List<T> b){
+    a.forEach((item) => print(item));
+
+  }
 }

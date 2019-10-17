@@ -2,6 +2,7 @@ import 'dart:collection';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
+import 'package:helloworld/DartIO/IOOperations.dart';
 import 'package:helloworld/dartintermediate.dart' as intermediate_lessons;
 import 'package:helloworld/firstClass.dart';
 import 'package:helloworld/Employee.dart';
@@ -10,22 +11,29 @@ import 'package:helloworld/Student/GraduateStudent.dart';
 import 'package:helloworld/Student/student.dart';
 import 'package:helloworld/task4/BnB.dart';
 import 'package:helloworld/Task5/Employee.dart';
-import 'package:helloworld/Generics/GenericCounter.dart';
+import 'package:helloworld/Generics/GenericsModule.dart';
 
 enum colors { red, blue, gray, yellow }
 main(List<String> arguments) async {
-  Payroll rec= Payroll();
-  rec.add(Manager());
-  rec.add(Cashier());
-  rec.add(Manager());
-  rec.add(Cashier());
-  rec.add(Cashier());
-  rec.print();
+  DartIOOperations reader = DartIOOperations();
+  //reader.getDir("C:\\Users\\Olufemi\\Documents");
+  //reader.accessTempDir();
+  //reader.getCurrentDir();
+  Directory dir = Directory.current;
+  File file =  File(dir.path+"/Femi.txt");
+  reader.writeFile(file);
+  reader.readFile(file);
+  reader.deleteFile(file);
 }
 
 
   /*
-
+Payroll rec= Payroll();
+  rec.add(Manager());
+  rec.add(Cashier());
+  rec.add(Manager());
+  rec.add(Cashier());
+  rec.add(Cashier());
 GenericCounter<double> numbers = GenericCounter<double>();
 numbers.addAll([1.0,2.8,9.2,4.1]);
 numbers.total();
